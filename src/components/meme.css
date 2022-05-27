@@ -29,8 +29,38 @@ main {
   cursor: pointer;
 }
 
+.meme {
+  position: relative;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .meme_img {
   margin-top: 30px;
   max-width: 100%;
-  /* object-fit: cover; */
+}
+
+.top_text {
+  width: auto;
+  position: absolute;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 50px;
+}
+
+.bottom_text {
+  width: auto;
+  position: absolute;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center; 
+  bottom: 50px;
 }
